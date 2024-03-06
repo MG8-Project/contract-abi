@@ -1,0 +1,33 @@
+{
+  "services": ["employee_lockup", "investor_lockup"],
+  "detail": {
+    "employee_lockup": {
+      "prod": {
+        "support_versions": ["v0.0.1", "v0.0.2"],
+        "support_networks": ["56", "137"]
+      },
+      "stg": {
+        "support_versions": ["v0.0.1", "v0.0.2"],
+        "support_networks": ["97", "80001"]
+      },
+      "dev": {
+        "support_versions": ["v0.0.1", "v0.0.2"],
+        "support_networks": ["97", "80001"]
+      }
+    },
+    "investor_lockup": {
+      "prod": {
+        "support_versions": ["v0.0.1", "v0.0.2"],
+        "support_networks": ["56", "137"]
+      },
+      "stg": {
+        "support_versions": ["v0.0.1", "v0.0.2"],
+        "support_networks": ["97", "80001"]
+      },
+      "dev": {
+        "support_versions": ["v0.0.1", "v0.0.2"],
+        "support_networks": ["97", "80001"]
+      }
+    }
+  }
+}
