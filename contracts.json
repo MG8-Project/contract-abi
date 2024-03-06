@@ -1,0 +1,20 @@
+{
+  "prod": {
+    "lockup": {
+      "employee_lockup": ["v0.0.1"],
+      "investor_lockup": ["v1.0.0"]
+    }
+  },
+  "stg": {
+    "lockup": {
+      "employee_lockup": ["v0.0.1"],
+      "investor_lockup": ["v1.0.0"]
+    }
+  },
+  "dev": {
+    "lockup": {
+      "employee_lockup": ["v0.0.1-80001"],
+      "investor_lockup": ["v1.0.0-80001", "v2.0.0-97"]
+    }
+  }
+}
